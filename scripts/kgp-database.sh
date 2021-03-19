@@ -9,16 +9,16 @@ logoutput()
 
 if [ -e /usr/share/kgp-bashlibrary/scripts/kgp-logging.sh ]
 then
-	. /usr/share/kgp-bashlibrary/scripts/kgp-logging.sh
+	source /usr/share/kgp-bashlibrary/scripts/kgp-logging.sh
 else
 	CURDIR=`realpath $0`
 	SB=`dirname $CURDIR`
 	if [ -e ${SB}/kgp-logging.sh ]
 	then
-		. ${SB}/kgp-logging.sh
+		source ${SB}/kgp-logging.sh
 	else
 		# Try local dir as final attempt
-		. ./kgp-logging.sh
+		source ./kgp-logging.sh
 	fi
 fi
 
