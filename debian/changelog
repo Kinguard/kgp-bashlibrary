@@ -1,3 +1,15 @@
+kgp-bashlibrary (1.2) vili; urgency=medium
+
+  * Dont use source to include library scripts
+
+ -- Tor Krill <tor@openproducts.se>  Fri, 19 Mar 2021 12:32:22 +0100
+
+kgp-bashlibrary (1.1) vili; urgency=medium
+
+  * Update include paths
+
+ -- Tor Krill <tor@openproducts.se>  Fri, 19 Mar 2021 12:18:59 +0100
+
 kgp-bashlibrary (1.0) vili; urgency=medium
 
   * Initial Release.

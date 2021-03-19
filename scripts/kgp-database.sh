@@ -7,7 +7,20 @@ logoutput()
 	echo "$1"
 }
 
-source kgp-logging.sh
+if [ -e /usr/share/kgp-bashlibrary/scripts/kgp-logging.sh ]
+then
+	. /usr/share/kgp-bashlibrary/scripts/kgp-logging.sh
+else
+	CURDIR=`realpath $0`
+	SB=`dirname $CURDIR`
+	if [ -e ${SB}/kgp-logging.sh ]
+	then
+		. ${SB}/kgp-logging.sh
+	else
+		# Try local dir as final attempt
+		. ./kgp-logging.sh
+	fi
+fi
 
 log_debug "Loading kgp-database library"
 
