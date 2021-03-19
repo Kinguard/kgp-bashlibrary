@@ -1,0 +1,7 @@
+The Debian Package kgp-bashlibrary
+----------------------------------
+
+Collected bash functions that are needed on many places to deduplicate
+things.
+
+ -- Tor Krill <tor@openproducts.se>  Thu, 18 Mar 2021 11:57:23 +0100

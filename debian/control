@@ -1,0 +1,15 @@
+Source: kgp-bashlibrary
+Section: admin
+Priority: standard
+Maintainer: Tor Krill <tor@openproducts.se>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://www.kinguardproject.org
+#Vcs-Git: https://github.com/Kinguard/kgp-bashlibrary.git
+#Vcs-Browser: https://github.com/Kinguard/kgp-bashlibrary
+
+Package: kgp-bashlibrary
+Architecture: all
+Depends: ${misc:Depends}
+Description: Kinguardproject bash library 
+ Collection of Kinguard usable shell functions etc.
