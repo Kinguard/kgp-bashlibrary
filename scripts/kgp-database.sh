@@ -62,7 +62,7 @@ eof
 
 dbrunning()
 {
-	systemctl -q is-active mysql
+	pidof -q mysqld
 }
 
 #
