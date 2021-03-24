@@ -28,6 +28,17 @@ then
 	CLOG=0
 fi
 
+# Set loglevel to debug if not defined
+if ! [[  $LOGLEVEL && ${LOGLEVEL-x} ]]
+then
+	LOGLEVEL=8
+fi
+
+# Set logname if not set
+if ! [[  $LOGNAME && ${LOGNAME-x} ]]
+then
+	LOGNAME="KGP-Logging"
+fi
 
 #
 # Arguments is a loglevel and an optional message
