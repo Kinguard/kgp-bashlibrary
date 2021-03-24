@@ -2,10 +2,12 @@
 export LOGLEVEL=8
 export LOGNAME="kgp-database"
 
-logoutput()
-{
-	echo "$1"
-}
+# For debug output to stdout
+#
+#logoutput()
+#{
+#	echo "$1"
+#}
 
 if [ -e /usr/share/kgp-bashlibrary/scripts/kgp-logging.sh ]
 then
