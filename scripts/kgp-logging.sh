@@ -109,7 +109,7 @@ alert()
 
 _output()
 {
-	if [ $CLOG ]
+	if [ $CLOG -eq 0 ]
 	then
 		logoutput "$LOGNAME ($1) : $2"
 	else
