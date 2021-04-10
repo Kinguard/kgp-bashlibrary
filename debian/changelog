@@ -1,3 +1,9 @@
+kgp-bashlibrary (1.4.4) vili; urgency=medium
+
+  * Add dep on pwgen
+
+ -- Tor Krill <tor@openproducts.se>  Sat, 10 Apr 2021 17:12:46 +0200
+
 kgp-bashlibrary (1.4.3) vili; urgency=medium
 
   * Set logname and loglevel to defaults if not set
