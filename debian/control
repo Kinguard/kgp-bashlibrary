@@ -11,6 +11,7 @@ Homepage: https://www.kinguardproject.org
 Package: kgp-bashlibrary
 Architecture: all
 Depends: ${misc:Depends}
- bash
+ bash,
+ pwgen
 Description: Kinguardproject bash library 
  Collection of Kinguard usable shell functions etc.
