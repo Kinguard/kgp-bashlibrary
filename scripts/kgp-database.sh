@@ -64,7 +64,7 @@ eof
 
 dbrunning()
 {
-	pidof -q mysqld
+	pidof -q mariadbd || pidof -q mysql
 }
 
 #
